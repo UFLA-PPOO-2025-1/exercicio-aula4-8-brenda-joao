@@ -18,8 +18,8 @@ public class VisaoDeTexto implements VisaoSimulador {
     @Override
     public void mostrarStatus(int passo, Campo campo) {
         // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'mostrarStatus'");
-        System.out.println("Passo "+ passo + "Raposas: " + "Coelho: " );
+        //throw new UnsupportedOperationException("Unimplemented method 'mostrarStatus'");
+        System.out.println("Passo: " + passo + " - " + estatisticasCampo.obterDetalhesPopulacao(campo) );
     }
 
     @Override
