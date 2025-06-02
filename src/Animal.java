@@ -1,7 +1,7 @@
 import java.util.List;
 import java.util.Random;
 
-public abstract class Animal {
+public abstract class Animal implements Ator {
 
     // Características compartilhadas por todos os coelhos (atributos estáticos, da classe).
 
@@ -137,7 +137,7 @@ public abstract class Animal {
     }
 
     
-    public abstract void agir(List<Animal> novosAnimais);
+    public abstract void agir(List<Ator> novosAnimais);
 
     protected abstract int obterIdadeMaxima();
     
